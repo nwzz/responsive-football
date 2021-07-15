@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: auto;
+}
+.container{
+    padding: 20px;
+    margin: auto;
+    width: 1440px;
+    height: 677px;
+    background-color:#2D25A0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copa-text{
+    margin-left: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    
+} 
+.copa-img{
+    margin: 40px;
+}
+.copa-img img{
+    width: 560px;
+    height: 430px;
+   
+}
+.btn{
+    background-color:#E02C6D;
+    margin-top: 0;
+    width: 80px;
+}
