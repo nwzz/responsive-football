@@ -1,13 +1,15 @@
-section{
+main{
     font-family: 'Poppins', sans-serif;
-    margin: auto;
+    margin: 0 auto;
     width: 1440px;
+    text-align: center;
+    
     
 }
 .container{
     
     margin: auto;
-    width: 1440px;
+   
     height: 677px;
     background-color:#2D25A0;
 
@@ -87,4 +89,23 @@ section{
 .social img{
     width: 40px;
     margin-left: 15px;
+}
+/* MEDIA QUERY */
+@media (max-width:668px){
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    main{
+        width: 668px;
+    }
+    .container{
+        
+        display: grid;
+        height: 1200px;
+    }
+}
+#chat{
+    text-decoration: none;
+    font-size: 20px;
+    color: #2D25A0;
 }
